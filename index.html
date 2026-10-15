@@ -3,15 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Small Biblio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <nav>
-    <a href="#/">Home</a>
+    <a href="#/home">Home</a>
     <a href="#/books">Books</a>
   </nav>
 
-  <div id="app"></div>
+  <section class="page" id="page-home">
+    <h1>Home</h1>
+  </section>
+
+  <section class="page" id="page-books">
+    <h1>Books</h1>
+    <div class="grid" id="books-list"></div>   
+  </section>
+
+  <section class="page" id="page-details">
+    <h1 id="details-title"></h1>                
+    <a class="btn" href="#/books">Back</a>
+  </section>
   <script src="login.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
+<!--
+l
+k
+{  }
+-->
