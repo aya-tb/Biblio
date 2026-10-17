@@ -7,18 +7,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav id="nav">
-    <a href="#/">Home</a>
-    <a href="#/books">Books</a>
-  </nav>
+  <header class="topbar">
+    <a class="logo" href="#/">Small Biblio</a>
+    <nav id="nav">
+      <a href="#/books">Browse books</a>
+    </nav>
+    <div class="topbar-right">
+      <a id="reservations-link" href="#/reservation">My reservations</a>
+      <span id="user-banner"></span>
+      <a id="auth-link" href="#/login">Login</a>
+    </div>
+  </header>
+  <div class="policy"><b>Physical Counter Policy:</b> reservations are confirmed in person at pickup. No online payment. Calendar days are inclusive.</div>
 
   <main id="app"></main>
+
+  <footer class="footer">Small Biblio · Didouche Mourad St, Algiers · Sat - Thu: 9h00 - 19h00</footer>
+
   <script src="login.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
-<!--
-l
-k
-{  }
--->
